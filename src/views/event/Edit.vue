@@ -13,7 +13,7 @@ export default {
         'the data has been updated.'
         setTimeout(() => {
           // After 3 seconds remove it
-          this.GStore.flashMesageEdit = ''
+          this.GStore.flashMessageEdit = ''
         }, 3000)
 
       this.$router.push({
